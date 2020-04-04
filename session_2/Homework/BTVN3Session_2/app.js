@@ -101,12 +101,12 @@
 // let n = Number(prompt("Nhap so N:"));
 // for(let i=1;i<=m;i++){
 //     for(let j=1;j<=n;j++){
-//         console.log(`*`);    
+//         document.write("*");   
 //     }
-//     console.log("\n");
+//     document.write("<br/>");
 // }
 
-// Bài 7+8
+// Bài 8+9
 // let a1 = Number(prompt("Nhap a1:"));
 // let b1 = Number(prompt("Nhap b1:"));
 // let c1 = Number(prompt("Nhap c1:"));
@@ -116,6 +116,6 @@
 // let x = c1/a1 -(a2*b1*c1-a1*b1*c2)/(a1*a2*b1-a1*a1*b2);
 // let y = (a2*c1-a1*c2)/(a2*b1-a1*b2);
 // console.log(`nghiem cua he pt la: x=${x} va y=${y}`);
-// // Với bài 7 thay
+// // Với bài 8 thay
 // // a1=1, b1=1, c1=36
-// // a2=2, b2=1, c2=50
+// // a2=4, b2=2, c2=100
