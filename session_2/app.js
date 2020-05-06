@@ -157,13 +157,13 @@
 // sử dụng vòng lặp for tính tổng các số từ 1-10
 // in ra các số từ 1-20 cách nhau 3 đơn vị
 
-let i=1;
-let tong=0;
-for (i=1;i<=10;i++){
-    tong= tong + i;
-}
-console.log(tong);
+// let i=1;
+// let tong=0;
+// for (i=1;i<=10;i++){
+//     tong= tong + i;
+// }
+// console.log(tong);
 
-for (i=1;i<=20;i+=3){
-    console.log(i);
-}
+// for (i=1;i<=20;i+=3){
+//     console.log(i);
+// }
