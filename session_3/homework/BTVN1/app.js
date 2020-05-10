@@ -168,3 +168,23 @@
 //     }
 // }
 // alert(`127.0.0.1:5000 says\n${input2} => ${output2}`);
+
+
+// let ip = prompt("nhap chuoi so").split(",").map(x=>+x);
+// console.log(...ip);
+// console.log(typeof ip[0]);
+// let maxA = Math.max(...ip);
+// console.log(maxA);
+// let minA = Math.min(...ip);
+
+// Tìm phần tử "a" trong mảng
+
+// var indices = [];
+// var array = ['a', 'b', 'a', 'c', 'a', 'd'];
+// var element = 'a';
+// var idx = array.indexOf(element);
+// while (idx != -1) {
+//   indices.push(idx);
+//   idx = array.indexOf(element, idx + 1);
+// }
+// console.log(indices);

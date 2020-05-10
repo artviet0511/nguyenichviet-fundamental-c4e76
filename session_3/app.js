@@ -114,3 +114,38 @@
 //         loop = false;
 //     }
 // }
+
+// BT1: Nhập vào 1 dãy số, mỗi số cách nhau bởi dấu ",":
+// Tính: A = Tổng các số >0 trong dãy
+// Tính: B = Tổng các số <0 trong dãy
+// Tính: C = Tổng các số chia hết cho 3
+// Tính: D = Trung bình cộng của dãy
+// Tính: E = Trung bình cộng của các số lớn hơn 0
+
+// BT2: Sắp xếp dãy số theo thứ tự Tăng dần / Giảm dần
+
+// let ar1 = prompt("nhap day so").split(",").map(x=>+x);
+// console.log(...ar1);
+// let A = 0;
+// let B = 0;
+// let C = 0;
+// let sum = 0;
+// let co = 0;
+// for(let i=0; i<ar1.length; i++){
+//     if(ar1[i] > 0){
+//         A = A + ar1[i];
+//         co++;
+//     }else if(ar1[i] < 0){
+//         B = B +ar1[i];
+//     }else if(ar1[i]%3 === 0){
+//         C = C +ar1[i];
+//     }
+//     sum = sum + ar1[i];
+// }
+// let D = sum/ar1.length;
+// let E = A/co;
+// console.log(`A = ${A}\nB = ${B}\nC = ${C}\nD = ${D}\nE = ${E}`);
+// ar1.sort(function(a,b){return a-b});
+// console.log(ar1);
+// ar1.sort(function(a,b){return b-a});
+// console.log(ar1);
