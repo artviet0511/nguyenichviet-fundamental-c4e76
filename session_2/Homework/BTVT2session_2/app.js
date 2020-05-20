@@ -106,21 +106,21 @@
 // console.log(randomString[0]);
 // console.log(randomString[1]);
 // console.log(randomString[2]);
-let dieukien2 = true;
-while(dieukien2){
-    let randomString = prompt("Nhập chuỗi ký tự bất kỳ mà bạn muốn");
-    let n = randomString.length;
-    for(let i=n-1;i>=0;i--){
-        console.log(i+" "+randomString[i]);
-        }
-    let answer2 = prompt("Người dùng có muốn sử dụng chương trình tiếp không? (yes/no)");
-    if(answer2 === "yes"){
-        dieukien2 = true;
-    }else if(answer2 === "no"){
-        dieukien2 = false;
-        break;
-    }else{
-        console.log("câu lệnh không hợp lệ");
-        break;
-    }
-}
+// let dieukien2 = true;
+// while(dieukien2){
+//     let randomString = prompt("Nhập chuỗi ký tự bất kỳ mà bạn muốn");
+//     let n = randomString.length;
+//     for(let i=n-1;i>=0;i--){
+//         console.log(i+" "+randomString[i]);
+//         }
+//     let answer2 = prompt("Người dùng có muốn sử dụng chương trình tiếp không? (yes/no)");
+//     if(answer2 === "yes"){
+//         dieukien2 = true;
+//     }else if(answer2 === "no"){
+//         dieukien2 = false;
+//         break;
+//     }else{
+//         console.log("câu lệnh không hợp lệ");
+//         break;
+//     }
+// }
