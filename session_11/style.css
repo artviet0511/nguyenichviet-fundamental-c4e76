@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./777aa-hinh-nen-sieu-xe-3d-cho-may-tinh_111411685.jpg);
+}
+
+/* #color {
+    color: burlywood;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+.hide{
+    display: none;
+} */
+
+#ip {
+    color: rgb(155, 100, 28);
+    background-color: rgb(75, 124, 139) !important;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    margin: auto;
+    
+}
+#chon{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+#co {
+    color: chocolate;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+#khong {
+    color: rgb(33, 55, 97);
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}

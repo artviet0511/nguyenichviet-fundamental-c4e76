@@ -20,3 +20,18 @@
 //  + Định dạng chữ (text style)
 //  + Hiệu ứng (Effects)
 
+
+
+
+// CSS: 
+// Text Style: định dạng chữ
+// color: màu (3 kiểu)
+//            - tên màu: red, blue, green ...
+//            - # ....
+//            - rbg
+
+// font-size: cỡ chữ
+// font-style: kiểu chữ
+// font-family: font chữ
+// background-color: màu font
+// Box model: width, height, bodor, padding, magin ...

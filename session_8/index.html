@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        /* Code CSS here */
+        /* 
+            selector1 : bộ lựa chọn, lựa chọn ra những phần tử cần style
+            thuộc tính: đặc điểm của phần tử
+            giá trị   :
+
+            1. Text style:
+             - màu, cỡ chữ, thay đổi font chữ, kiểu chữ, màu nền chữ, case
+            
+         */
+
+        /* - Color: tên màu
+                      mã màu: red, green, blue
+                              00-FF,00-FF,00-FF
+                      rgb: red, green, blue
+                           0-255,0-255,0-255 */
+
+
+        /* font-family: 'Dancing Script', cursive; */
+        /* 
+               - Kiểu chữ:
+                    độ đậm nhạts
+                    độ nghiêng
+                    chữ gạch chân
+            
+             */
+        /* h1 {
+            font-size: 40px;
+            color: white;
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: line-through;
+            background-color: green;
+            text-transform: capitalize;
+        } */
+
+        /* 
+           2. Định dạng khối (Box model)
+            - kích thước khối: chiều rộng, chiều cao
+            - đường viền, màu nền
+            - các khoảng cách
+         */
+        /* div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid purple;
+            border-width: 10px;
+            border-color: purple;
+            border-style: dashed;
+            background-color: blueviolet;
+            background-image: url('https://vn.buaksib.com/wp-content/uploads/2019/12/Em-g%C3%A1i-v%C3%BA-b%E1%BB%B1.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50%;
+            color: white;
+            line-height: 500px;
+            text-align: center;
+            overflow: hidden;
+            margin: 30px 0px 30px 30px;
+            padding: 30px 50px 30px 50px;
+        }
+        #red-text {
+            color: red;
+            background-color: seagreen;
+        }
+
+        .specific-div {
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .specific-div.text-blue {
+            color: blue;
+        }
+
+        div span {
+            background-color: steelblue;
+        }
+        #red-text span {
+            background-color: orange;
+        } */
+        div {
+            background-color: orange;
+            color: white;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            font-size: 50px;
+        }
+
+        #flex-container{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            background-color: blue;
+            flex-wrap: wrap;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Liều thì ăn nhiều, không liều thì ăn ít</h1>
+
+    <div>
+        Ra xã hội làm ăn bươn chải
+    </div>
+    <div>
+        Ra xã hội làm ăn bươn chải
+    </div> -->
+
+
+    <!-- <div class="specific-div text-blue">Ra xã hội làm ăn bươn chải</div>
+    <div>Liều thì ăn nhiều</div>
+    <div>Không liều thì ăn ít</div>
+    <div id="red-text">Muốn thành công thì phải <span>somthing like this</span></div>
+    <div class="specific-div">Chấp nhận đắng cay ngọt bùi</div>
+    <div>
+        Làm ăn muốn kiếm được tiền
+        <span>thì phải chấp nhận nguy hiểm</span>
+    </div> -->
+    <section id="flex-container">
+        <div>Khối 1</div>
+        <div>Khối 2</div>
+        <div>Khối 3</div>
+        <!-- <div>Khối 4</div>
+        <div>Khối 5</div>
+        <div>Khối 6</div> -->
+
+    </section>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
