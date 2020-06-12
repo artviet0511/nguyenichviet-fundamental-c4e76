@@ -5,37 +5,42 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 body{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(240, 236, 236);
 }
+
 #tenquan{
     width: 100%;
     height: 100px;
     font-size: 50px;
-    background-color: rgb(58, 27, 136);
     text-align: center;
     line-height: 100px;
     border: 1px solid black;
+    margin-bottom: 30px;
+    
 }
+
 #menu{
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
+    
 }
+
 .tab-menu{
+    width: 15%;
     height: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 20px;
+    margin-left: 10%;
+    position: fixed;
+    top: 140px;
+    left: 10px;
 }
-/* .tab{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 70px;
-} */
-a {
+
+.tab-menu a {
     width: 200px;
     height: 25px;
     font-size: 16px;
@@ -43,54 +48,42 @@ a {
     font-family: 'Times New Roman', Times, serif;
     text-align: start;
     line-height: 25px;
-    margin: auto;
     text-decoration: none;
-    margin-left: 15%;
+    margin-left: 20px;
 }
 
-/* .main-menu{
-    margin-left: 25px;
-    border-left: inset;
-    border-color: orange;
-    padding-left: 25px;
-    
-} */
 .main-menu {
-    margin-left: 25px;
-    border-left: inset;
-    border-color: orange;
-    padding-left: 25px;
-    margin: 20px;
-}
-.bocngoai {
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 450px;
+    border-left: inset;
+    border-color: orange;
+    padding-left: 25px;
 }
+
 .item{
     height: 50px;
     line-height: 50px;
     color: orange;
     font-size: 30px;
-    border: 1px solid black;;
 }
 .flex{
     width: 991px;
     display: flex;
-    line-height: 
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
 }
 .menu-item{
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
     width: 250px;
     height: 420px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .anh{
     width: 250px;
@@ -99,19 +92,19 @@ a {
 .name{
     width: 250px;
     height: 40px;
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+    line-height: 40px;
 }
 .gia{
     width: 100px;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: rgb(185, 32, 40);
-    text-align: center;
-    text-align: center;
-    line-height: 50px;
+    margin-left: 15px;
+    line-height: 40px;
 }
 .datmua{
     font-size: 15px;
@@ -119,10 +112,25 @@ a {
     height: 50px;
     text-align: center;
     line-height: 50px;
-    border-style: groove;
+    border-style: hidden;
     color: white;
     background-color: orange;
     line-height: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#anhgiohang{
+    width: 60px;
+    height: 60px;
+    border-style: hidden;
+    border-radius: 50%;
+    position: fixed;
+    top:250px;
+    right: 20px; 
+}
+#anhgiohang:hover{
+    transform: rotate(45deg);
 }
 
 
@@ -136,6 +144,7 @@ a {
     }
     .tab-menu{
         width: auto;
+        height: 25px;
         display: flex;
         flex-direction: row;
         justify-content: center;
