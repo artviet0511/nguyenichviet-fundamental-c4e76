@@ -18,13 +18,22 @@ body{
     line-height: 100px;
     border: 1px solid black;
     margin-bottom: 30px;
-    
+    position: fixed;
+    color: blue;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    z-index: 10;
 }
 
 #menu{
     display: flex; 
     flex-direction: row;
     
+}
+
+body {
+    height: 1500px;
 }
 
 .tab-menu{
@@ -55,10 +64,12 @@ body{
 .main-menu {
     display: flex;
     flex-direction: column;
-    margin-left: 450px;
+    margin-left: 300px;
     border-left: inset;
     border-color: orange;
     padding-left: 25px;
+    position: relative;
+    top: 110px;
 }
 
 .item{
@@ -126,13 +137,13 @@ body{
     border-style: hidden;
     border-radius: 50%;
     position: fixed;
-    top:250px;
-    right: 20px; 
+    top:140px;
+    right: 50px; 
 }
 #anhgiohang:hover{
     transform: rotate(45deg);
+    
 }
-
 
 @media only screen and (max-width: 991px){
     #menu{
@@ -151,3 +162,34 @@ body{
         align-items: center;
     }
 }
+
+#giohang {
+    width: 14%;
+    height: 70%;
+    position: relative;
+    /* right: 0;
+    top: 30%; */
+    background-color: white;
+}
+.footer-giohang-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.buy-name,
+.buy-gia,
+.soluong,
+.buy-tong {
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+}
+.y {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    background-color:white;
+}
+
+
