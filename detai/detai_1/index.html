@@ -6,231 +6,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .image {
+            width: 250px;
+            height: 250px;
+        }
+
+        .name {
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 5px;
+            margin-left: 15px;
+            line-height: 40px;
+        }
+
+        .price {
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            margin-top: 5px;
+            color: rgb(185, 32, 40);
+            margin-left: 15px;
+            line-height: 40px;
+        }
+
+        .buy-now {
+            font-size: 15px;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-style: hidden;
+            color: white;
+            background-color: green;
+            line-height: 50px;
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+
+        .number {
+            width: 100px;
+            height: 20px;
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+
+        #anhgiohang {
+            width: 60px;
+            height: 60px;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="tenquan">Quán ABC - HOTLINE: </div>
-    <section id="menu">
-        <div class="tab-menu">
-            <a href="#noibat" class="menu_scroll_link">NỔI BẬT</a>
-            <a href="#cafe" class="menu_scroll_link">CÀ PHÊ</a>
-            <a href="#tra" class="menu_scroll_link">TRÀ TRÁI CÂY</a>
-            <a href="#sinhto" class="menu_scroll_link">SINH TỐ</a>
-            <a href="#banh" class="menu_scroll_link">BÁNH NGỌT</a>
+    <h1 id="tenquan">Quán ABC - HOTLINE: </h1>
+    <section id="main">
+        <div class="menu-tab">
+            <a href="#noibat" class="menu-link">NỔI BẬT</a>
+            <a href="#cafe" class="menu-link">CÀ PHÊ</a>
+            <a href="#tra" class="menu-link">TRÀ TRÁI CÂY</a>
+            <a href="#sinhto" class="menu-link">SINH TỐ</a>
+            <a href="#banh" class="menu-link">BÁNH NGỌT</a>
         </div>
-        <div class="main-menu">
+        <div id="main-menu" class="main-menu">
 
-            <h1 id="noibat" class="item">NỔI BẬT</h1>
-            <div class="flex">
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_pbt_b1d7b2aac4474bad9e16906964170a17_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ PHÚC BỒN TỬ</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_gan_nhau_hon_48d1acc909f847eaab12f760ef3892ba_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ GẦN NHAU HƠN</h1>
-                        <h1 class='gia'>50000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_thom_1_cai_a38f71bbe22c4f83bd342a9baf324c45_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ THƠM 1 CÁI</h1>
-                        <h1 class='gia'>50000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
+        </div>
+        <!-- <div id="comein-giohang">
+            <div id="itemgiohang">
+                <img id="anhgiohang"
+                    src="https://png.pngtree.com/template/20190928/ourlarge/pngtree-shopping-cart-logo-design-template-image_312609.jpg">
             </div>
 
-            <h1 id="cafe" class="item">CÀ PHÊ</h1>
-            <div class="flex">
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.jpg">
-                    <div>
-                        <h1 class="name">CÀ PHÊ SỮA</h1>
-                        <h1 class='gia'>29000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
+            <div id="giohang">
+                <div class="main-buy">
                 </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg">
-                    <div>
-                        <h1 class="name">CÀ PHÊ ĐEN</h1>
-                        <h1 class='gia'>39000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
+                <div class='footer-giohang'>
+                    <div class="footer-giohang-1">
+                        <span>THÀNH TIỀN</span>
+                        <span class="thanh tien">0 VND</span>
                     </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/cappuccino_af58b143de7e4faeb9a3ce59b313c946_large.jpg">
-                    <div>
-                        <h1 class="name">CAPPUCINNO</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
+                    <button>thanhtoan</button>
                 </div>
             </div>
+        </div> -->
+        <img id="myBtn" src="https://png.pngtree.com/template/20190928/ourlarge/pngtree-shopping-cart-logo-design-template-image_312609.jpg" onclick="showDataCart()">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="user-input">
+                    <span class="close span1">&times;</span>
+                    <h3>Thông tin người nhận</h3>
+                    <hr>
+                    <div>
+                        <input type="text" class="checkout-name" placeholder="Tên người nhận">
+                        <input type="text" class="checkout-number" placeholder="Số điện thoại">
+                    </div>
+                    <input type="text" class="checkout-address" placeholder="Địa chỉ giao hàng">
+                    <input type="text" class="checkout-note" placeholder="Ghi chú">
+                </div>
+                <div class="shopping-cart">
+                    <span class="close span2">&times;</span>
+                    <h3>Giỏ hàng</h3>
+                    <hr>
+                    <div class="item-cart" >
+                    </div>
+                    <hr>
+                    <div class="shipping">
+                        <div id="shipping-name">Phí vận chuyển</div>
+                        <div id="shipping-price">15.000đ</div>
+                    </div>
+                    <div class="price-total">
+                        <div id="price">Tổng cộng</div>
+                        <div id="price-number">0</div>
+                    </div>
+                    
+                    <hr>
+                    <div class="checkout-btn">
+                        <div class="promo">
+                            <input id="promo" class="button" type="text" placeholder="Nhập mã ưu đãi">
+                            <button id="apply" class="button">Áp dụng</button>
+                        </div>
 
-            <h1 id="tra" class="item">TRÀ TRÁI CÂY</h1>
-            <div class="flex">
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ ĐÀO CAM SẢ</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
+                        <div class="checkout">
+                            <button id="checkout-button" class="button">Thanh toán</button>
+                        </div>
                     </div>
                 </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_gan_nhau_hon_48d1acc909f847eaab12f760ef3892ba_large.jpg">
+                <div class="paying">
                     <div>
-                        <h1 class="name">TRÀ GẦN NHAU HƠN</h1>
-                        <h1 class='gia'>50000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
+                        <h3 id="payment-name"> Phương thức thanh toán</h3>
                     </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ OOLONG VẢI NHƯ Ý</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ OOLONG SEN AN NHIÊN</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_thom_1_cai_a38f71bbe22c4f83bd342a9baf324c45_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ THƠM 1 CÁI</h1>
-                        <h1 class='gia'>50000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tra_pbt_b1d7b2aac4474bad9e16906964170a17_large.jpg">
-                    <div>
-                        <h1 class="name">TRÀ PHÚC BỒN TỬ</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-            </div>
+                    <hr>
 
-            <h1 id="sinhto" class="item">SINH TỐ</h1>
-            <div class="flex">
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/sinh_to_cam_xoai_c3cfa1beec0d4e49b0b229104cbfe412_large.jpg">
-                    <div>
-                        <h1 class="name">SINH TỐ CAM XOÀI</h1>
-                        <h1 class='gia'>45000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/sinh_to_viet_quoc_2ed4aa962f594539a8d11c05c5129628_large.jpg">
-                    <div>
-                        <h1 class="name">SINH TỐ VIỆT QUẤT</h1>
-                        <h1 class='gia'>50000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-            </div>
+                    <div class="payment">
+                        <div class="payment-name1">
+                            <div>
+                                <label class="cursor">
+                                    <input type="radio" name="payment" id="">
+                                    <img src="/image/cash.png" alt="" width="20px" height="auto">
+                                    <span id="cash">Tiền mặt</span>
+                                </label>
+                            </div>
+                            <div>
 
-            <h1 id="banh" class="item">BÁNH NGỌT</h1>
-            <div class="flex">
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/choco_1x1_4faf8c80e6604cad88ce30528e2bd409_large.jpg">
-                    <div>
-                        <h1 class="name">BÁNH CHOCOLATE</h1>
-                        <h1 class='gia'>29000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/matcha_178bdeeb1f9b47ea9f782048eb145f49_large.jpg">
-                    <div>
-                        <h1 class="name">BÁNH MATCHA</h1>
-                        <h1 class='gia'>29000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/tira_1x1_eb865751a24e4520be32a56129dd7a2d_large.jpg">
-                    <div>
-                        <h1 class="name">BÁNH TIRAMISU</h1>
-                        <h1 class='gia'>29000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img class="anh"
-                        src="https://product.hstatic.net/1000075078/product/gau_1x1_8b308db3a67a47688ff0d69a8c5615bf_large.jpg">
-                    <div>
-                        <h1 class="name">BÁNH GẤU CHOCOLATE</h1>
-                        <h1 class='gia'>39000 Đ</h1>
-                        <h1 class="datmua">MUA NGAY</h1>
+                                <label class="cursor">
+                                    <input type="radio" name="payment" id="">
+                                    <img src="/image/atm.png" alt="" width="20px" height="auto">
+                                    <span id="bank">ATM</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="cursor">
+                                    <input type="radio" name="payment" id="">
+                                    <img src="/image/visa-logo-preview.png" alt="" width="20px" height="auto">
+                                    <span id="visa">Visa</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="payment-name2">
+                            <div>
+                                <label class="cursor">
+                                    <input type="radio" name="payment" id="">
+                                    <img src="/image/airpay.png" alt="" width="20px" height="20px">
+                                    <span id="airpay">AirPay</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="cursor">
+                                    <input type="radio" name="payment" id="">
+                                    <img src="/image/logo-momo.png" alt="" width="20px" height="20px">
+                                    <span id="momo">Ví Momo</span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="itemgiohang">
-            <img id="anhgiohang"
-                src="https://png.pngtree.com/template/20190928/ourlarge/pngtree-shopping-cart-logo-design-template-image_312609.jpg">
-        </div>
 
-        <div id="giohang">
-            <!-- <div class='header-giohang y'>
-                <div>GIỎ HÀNG</div>
-                <button id="x">X</button>
-            </div>
-            <div class="fick-buy">
-                <div class="buy-name">TÊN MÓN</div>
-                <div class="buy-gia">GIÁ TIỀN</div>
-                <div class="soluong">SỐ LƯỢNG</div>
-                <div class="buy-tong">TỔNG</div>
-            </div> -->
-            <div class="main-buy">
-            </div>
-            <div class='footer-giohang'>
-                <div class="footer-giohang-1">
-                    <span>THÀNH TIỀN</span>
-                    <span class="thanh tien">0 VND</span>
-                </div>
-                <button>thanhtoan</button>
-            </div>
-        </div>
     </section>
-    
 
+
+    <script src="./fake_data.js"></script>
     <script src="./app.js"></script>
 
 </body>
