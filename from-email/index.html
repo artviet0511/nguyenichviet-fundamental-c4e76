@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- form sign up -->
+    <section class="form-sign-up-container">
+        <form class="form-sig-up">
+            <h1>Đăng ký</h1>
+
+            <div class="content-input">
+                <input type="text" name="fullName" placeholder="full name">
+                <span></span>
+                <div class="alert-error" id="fullName-error"></div>
+            </div>
+
+            <div class="content-input">
+                <input type="text" name="email" placeholder="email">
+                <span></span>
+                <div class="alert-error" id="email-error"></div>
+            </div>
+
+            <div class="content-input">
+                <input type="password" name="password" placeholder="password">
+                <span></span>
+                <div class="alert-error" id="password-error"></div>
+            </div>
+
+            <div class="content-input">
+                <input type="password" name="confirmPassword" placeholder="confirm">
+                <span></span>
+                <div class="alert-error" id="confirmPassword-error"></div>
+                <div class="alert-success" id="sign-up-success"></div>
+            </div>
+            
+            <!-- button submit -->
+            <button type="submit" id="btn-sign-up" class="logbtn">Resister</button>
+
+        </form>
+    </section>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyApX3wlQ9O1iARIaoyCrd0aNh4EbKnl5O4",
+            authDomain: "c4e-z76-quananabc.firebaseapp.com",
+            databaseURL: "https://c4e-z76-quananabc.firebaseio.com",
+            projectId: "c4e-z76-quananabc",
+            storageBucket: "c4e-z76-quananabc.appspot.com",
+            messagingSenderId: "366681615574",
+            appId: "1:366681615574:web:c5f1c91e73729606156d77",
+            measurementId: "G-2QVYYKX5JL"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
