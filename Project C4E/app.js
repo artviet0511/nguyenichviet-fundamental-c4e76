@@ -122,8 +122,8 @@ function showData() {
   let mainMenu = document.getElementById("main-menu");
   for (let category of fake_data) {
     let html = `
-        <div class="out">
-            <h1 id="${category.title}" class="item" style='color: #F1F1F0'>${category.title}</h1>
+        <div style="border: 1px solid white;" class="out">
+            <h1 id="${category.title}" class="item" style='color: #F1F1F0; font-size: 150%;'>${category.title}</h1>
             <div class="flex">`;
 
     for (let menuItem of category.data) {
