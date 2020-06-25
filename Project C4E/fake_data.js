@@ -20,7 +20,7 @@ let fake_data = [
         title: "TRÀ TRÁI CÂY",
         data: [
             { "image": "https://product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg", "name": "TRÀ ĐÀO CAM SẢ", "price": 25000, "number": 21 },
-            { "image": "https://product.hstatic.net/1000075078/product/tra_gan_nhau_hon_48d1acc909f847eaab12f760ef3892ba_large.jpg", "name": "TRÀ GẦN NHAU HƠN", "price": 29000, "number": 46 },
+            { "image": "https://product.hstatic.net/1000075078/product/tra_gan_nhau_hon_48d1acc909f847eaab12f760ef3892ba_large.jpg", "name": "TRÀ GẦN NHAU HƠN", "price": 50000, "number": 46 },
             { "image": "https://product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg", "name": "TRÀ OOLONG VẢI NHƯ Ý", "price": 35000, "number": 54 },
             { "image": "https://product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg", "name": "TRÀ OOLONG SEN AN NHIÊN", "price": 45000, "number": 26 },
             { "image": "https://product.hstatic.net/1000075078/product/tra_thom_1_cai_a38f71bbe22c4f83bd342a9baf324c45_large.jpg", "name": "TRÀ THƠM MỘT CÁI", "price": 50000, "number": 37 },

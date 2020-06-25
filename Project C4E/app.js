@@ -124,8 +124,8 @@ function showData() {
                     <div>
                         <h1 class="name">${menuItem.name}</h1>
                         <h1 class="price">${menuItem.price} đ</h1>
-                        <input type="number" class="number" min="1" max="${menuItem.number}" value="1">
-                        <h1 class="buy-now" onclick="addToCart(event)">MUA NGAY</h1>
+                        <input type="number" class="number" min="1" max="${menuItem.number}" value="1"><br>
+                        <h1 class="buy-now hvr-sweep-to-right" onclick="addToCart(event)">MUA NGAY</h1>
                     </div>
                 </div>`;
     }
@@ -137,20 +137,28 @@ function showData() {
     mainMenu.innerHTML += html;
   }
 }
-
+showData();
 function addToCart(event) {
   let info = event.target.parentNode;
   console.log(info);
-  
-  let item = {
-    name: info.querySelector(".name").innerText,
-    price: info.querySelector(".price").innerText,
-    number: info.querySelector(".number").value
+  let temp = 0;
+  for (let key of cart) {
+    if (key.name == info.querySelector(".name").innerText) {
+      key.number = parseFloat(key.number)+parseFloat(info.querySelector(".number").value);
+      console.log(key.number);
+      temp = 1;
+    }
+  }
+  if (temp == 0) {
+    let item = {
+      name: info.querySelector(".name").innerText,
+      price: info.querySelector(".price").innerText,
+      number: info.querySelector(".number").value
+    };
+    cart.push(item);
   };
-  cart.push(item);
-  console.log(item);
 }
-showData();
+
 
 // add to Localstage
 function showLocal() {
